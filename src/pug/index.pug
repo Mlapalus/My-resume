@@ -37,15 +37,16 @@ html(lang='fr')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#about') Ma vie...Mon Oeuvre
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#experience') Mon Expérience
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#education') Mes diplômes
+                        a.nav-link.js-scroll-trigger(href='#education') Mes Formations
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#skills') Mes Compétences
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#experience') Mon Expérience
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#interests') Mes Centres d'intéret
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#awards') Mes Certificats
+                   
 
         // Page Content
         .container-fluid.p-0
@@ -62,36 +63,106 @@ html(lang='fr')
                     p.lead.mb-5
                         | J'ai une formation d'ingénieur en Electonique et Informatique, 
                         | avec une spécialisation en <span>Microélectronique et Systèmes Intégrés</span>.
-                    p.lead.mb-5
+                        br
                         | J'ai une expérience de <span>6 ans</span> dans le développement de circuits
                         | et cartes numérique principalement dans les Telecoms.
-                    p.lead.mb-5
+                        br
                         | Depuis 1 an, je me forme en autodidacte au développement Web.
                     .social-icons
-                        a.social-icon(href='#')
+                        a.social-icon(href='http://linkedin.com/in/michel-lapalus-52a7987b')
                             i.fab.fa-linkedin-in
-                        a.social-icon(href='#')
+                        a.social-icon(href='https://github.com/Mlapalus')
                             i.fab.fa-github
-                        a.social-icon(href='#')
-                            i.fab.fa-twitter
-                        a.social-icon(href='#')
+                        a.social-icon(href='https://www.facebook.com/michel.lapalus.5')
                             i.fab.fa-facebook-f
 
             hr.m-0
 
-            // Experience
-            section#experience.resume-section
-               .resume-section-content
-                    h2.mb-5 Experience
+            // Mes Formations
+            section#education.resume-section
+                .resume-section-content
+                    h2.mb-5 Mes Formations
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 Senior Web Developer
-                            .subheading.mb-3 Intelitec Solutions
-                            p
-                                | Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+                            h3.mb-0 EFREI - Villejuif
+                            .subheading.mb-3 Ingénieur en Electronique et Informatique
                         .flex-shrink-0
-                            span.text-primary March 2013 - Present
+                            span.text-primary Septembre 1991 - Septembre 1996
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 Jussieu - Paris
+                            .subheading.mb-3 DEA en Microélectronique et Systèmes Intégrés
+                        .flex-shrink-0
+                            span.text-primary Septembre 1995 - Septembre 1996
+
+            hr.m-0
+
+            // Compétences
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-5 Mes compétences
+                    .subheading.mb-3 Langages de Programmation & Outils
+                    ul.list-inline.dev-icons
+                        li.list-inline-item
+                            i.fab.fa-html5
+                        li.list-inline-item
+                            i.fab.fa-css3-alt
+                        li.list-inline-item
+                            i.fab.fa-js-square
+                        li.list-inline-item
+                            i.fab.fa-php
+                        li.list-inline-item
+                            i.fab.fa-symfony
+                        li.list-inline-item
+                            i.fab.fa-wordpress 
+                        li.list-inline-item
+                            i.fab.fa-sass
+                        li.list-inline-item
+                            i.fab.fa-python
+                        li.list-inline-item
+                            i.fab.fa-github
+                        li.list-inline-item
+                            i.fab.fa-gitlab
+                    .subheading.mb-3 Workflow
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Responsive Design
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | BDD - TDD - Clean Architecture
+                        li
+                            span.fa-li
+                                i.fas.fa-check
+                            | Git - Github - Gitlab
+                       
+
+            hr.m-0
+
+            // Expérience
+            section#experience.resume-section
+               .resume-section-content
+                    h2.mb-5 Mes expériences
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Web Developpeur Junior
+                            .subheading.mb-3 Autoformation
+                            p
+                                | Apprentissage en autodidacte des différents langages du web :
+                                | HTML5, CSS3, JS, PHP7, PYTHON.
+                                br
+                                | Travaille sur les Frameworks, Symfony et Django, et des outils Webpack, Composer, Docker, Git...
+                                br
+                                | Réalisation et mise en ligne de sites Web :
+                            a.nav-link.js-scroll-trigger(href='http://bibiche-coiffure.fr') Bibiche-Coiffure
+                            a.nav-link.js-scroll-trigger(href='http://top-service-france.fr') Top Services
+                        .flex-shrink-0
+                            span.text-primary March 2019 - Aujourd'hui
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
@@ -122,80 +193,6 @@ html(lang='fr')
 
             hr.m-0
 
-            // Education
-            section#education.resume-section
-                .resume-section-content
-                    h2.mb-5 Education
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
-                        .flex-grow-1
-                            h3.mb-0 University of Colorado Boulder
-                            .subheading.mb-3 Bachelor of Science
-                            div Computer Science - Web Development Track
-                            p GPA: 3.23
-                        .flex-shrink-0
-                            span.text-primary August 2006 - May 2010
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between
-                        .flex-grow-1
-                            h3.mb-0 James Buchanan High School
-                            .subheading.mb-3 Technology Magnet Program
-                            p GPA: 3.56
-                        .flex-shrink-0
-                            span.text-primary August 2002 - May 2006
-
-            hr.m-0
-
-            // Skills
-            section#skills.resume-section
-                .resume-section-content
-                    h2.mb-5 Skills
-                    .subheading.mb-3 Programming Languages & Tools
-                    ul.list-inline.dev-icons
-                        li.list-inline-item
-                            i.fab.fa-html5
-                        li.list-inline-item
-                            i.fab.fa-css3-alt
-                        li.list-inline-item
-                            i.fab.fa-js-square
-                        li.list-inline-item
-                            i.fab.fa-angular
-                        li.list-inline-item
-                            i.fab.fa-react
-                        li.list-inline-item
-                            i.fab.fa-node-js
-                        li.list-inline-item
-                            i.fab.fa-sass
-                        li.list-inline-item
-                            i.fab.fa-less
-                        li.list-inline-item
-                            i.fab.fa-wordpress
-                        li.list-inline-item
-                            i.fab.fa-gulp
-                        li.list-inline-item
-                            i.fab.fa-grunt
-                        li.list-inline-item
-                            i.fab.fa-npm
-                    .subheading.mb-3 Workflow
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Mobile-First, Responsive Design
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Cross Browser Testing & Debugging
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Cross Functional Teams
-                        li
-                            span.fa-li
-                                i.fas.fa-check
-                            | Agile Development & Scrum
-
-            hr.m-0
 
             // Interests
             section#interests.resume-section
