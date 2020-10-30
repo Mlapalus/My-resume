@@ -27,7 +27,8 @@ html(lang='fr')
         // Navigation
         nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
             a.navbar-brand.js-scroll-trigger(href='#page-top')
-                span.d-block.d-lg-none Michel Lapalus
+                span.d-block.d-lg-none
+                    img.img-fluid.img-profile.mx-auto.mb-2(src='assets/img/ma-photo-mini.jpg', alt='', style='width: 50px')
                 span.d-none.d-lg-block
                     img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/ma-photo-mini.jpg', alt='')
             button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
@@ -43,9 +44,9 @@ html(lang='fr')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#experience') Mon Expérience
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#interests') Mes Centres d'intéret
-                    li.nav-item
                         a.nav-link.js-scroll-trigger(href='#awards') Mes Certificats
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#interests') Mes Centres d'intéret
                    
 
         // Page Content
@@ -202,53 +203,83 @@ html(lang='fr')
             // Certificats
             section#awards.resume-section
                 .resume-section-content
-                    h2.mb-5 Awards & Certifications
+                    h2.mb-5 Certifications
                     ul.fa-ul.mb-0                        
                         li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Openclassroom : HTML5 - CSS3
-                            a(href="")
+                            a(href="certificats/html5-CSS3.pdf")
+                                span.fa-li
+                                    i.fas.fa-trophy.text-warning
+                                | Openclassroom : HTML5 - CSS3
                         li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Openclassroom : Apprendre Javascript 
+                            a(href="certificats/Apprendre-javascript-oc.pdf")
+                                span.fa-li
+                                    i.fas.fa-trophy.text-warning
+                                | Openclassroom : Apprendre Javascript 
                         li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Openclassroom : Coder en Javascript
+                            a(href="certificats/coder-en-javascript.pdf")
+                                span.fa-li
+                                    i.fas.fa-trophy.text-warning
+                                | Openclassroom : Coder en Javascript
                         li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Openclassroom : Javascript pour le Web
+                            a(href="certificats/javascript-web.pdf")
+                                span.fa-li
+                                    i.fas.fa-trophy.text-warning
+                                | Openclassroom : Javascript pour le Web
                         li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Openclassroom : Apprenez Python
+                            a(href="certificats/CertificatDaccomplissement_Lessentiel de Symfony 4-2.pdf")
+                                span.fa-li
+                                    i.fas.fa-trophy.text-warning
+                                | LinkedIn : L'essentiel de symfony 4 
                         li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Openclassroom : POO avec Python 
+                            a(href="certificats/CertificatDaccomplissement_PHP  Tests unitaires simplifies avec PHPUnit-2.pdf")
+                                span.fa-li
+                                    i.fas.fa-trophy.text-warning
+                                | LinkedIn : PHPUnit 
                         li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Openclassroom : Démarrer avec Python
+                            a(href="certificats/CertificatDaccomplissement_Lessentiel de Webpack 4-2.pdf")
+                                span.fa-li
+                                    i.fas.fa-trophy.text-warning
+                                | LinkedIn : L'essentiel Webpack 4
                         li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Openclassroom : Testez avec Python
+                            a(href="certificats/apprenez-python.pdf")
+                                span.fa-li
+                                    i.fas.fa-trophy.text-warning
+                                | Openclassroom : Apprenez Python
                         li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Openclassroom : Framework Django
+                            a(href="certificats/poo-python.pdf")
+                                span.fa-li
+                                    i.fas.fa-trophy.text-warning
+                                | Openclassroom : POO avec Python 
                         li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Openclassroom : Perfectionnez vous en Python
+                            a(href="certificats/démarer-avec-python.pdf")
+                                span.fa-li
+                                    i.fas.fa-trophy.text-warning
+                                | Openclassroom : Démarrer avec Python
                         li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Openclassroom : Démarrer avec Python
+                            a(href="certificats/testez-avec-python.pdf")
+                                span.fa-li
+                                    i.fas.fa-trophy.text-warning
+                                | Openclassroom : Testez avec Python
+                        li
+                            a(href="certificats/CertificatDaccomplissement_Decouvrir Django.pdf")
+                                span.fa-li
+                                    i.fas.fa-trophy.text-warning
+                                | LinkedIn : Découvrir Django
+                        li
+                            a(href="certificats/django.pdf")
+                                span.fa-li
+                                    i.fas.fa-trophy.text-warning
+                                | Openclassroom : Framework Django
+                        li
+                            a(href="certificats/CertificatDaccomplissement_TestDriven Development in Django.pdf")
+                                span.fa-li
+                                    i.fas.fa-trophy.text-warning
+                                | Linkedin : TestDriven Development in Django
+                        li
+                            a(href="certificats/perfectionnez-python.pdf")
+                                span.fa-li
+                                    i.fas.fa-trophy.text-warning
+                                | Openclassroom : Perfectionnez vous en Python
             hr.m-0
           
             // Mes centres d'intéret
