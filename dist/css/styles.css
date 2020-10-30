@@ -10032,6 +10032,9 @@ p.lead {
   outline-color: #d48a6e;
 }
 
+span {
+  font-weight: bolder;
+}
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
